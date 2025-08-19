@@ -4,7 +4,6 @@ class Main {
     //Use the // to create single line comments to either add info or to take out code for debugging
 
     System.out.println("Hello world!");
-
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
 
 
@@ -33,6 +32,16 @@ class Main {
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
 
+int pets = 5;
+int PointsScored = 96;
+int TempCelcius = 32;
+double StudentsPassed = 83.75;
+double price = 12.99;
+double PercentGamesWon = 66.55;
+boolean PassedTest = true;
+boolean TenYrsOld = false;
+boolean attendence = true;
+
 
 
 
@@ -48,13 +57,19 @@ class Main {
 
     //Odd integers from 1 to 100, inclusive of both
 
+    for (int i = 1; i < 100; i+=2){
+System.out.println(i);
+    }
+
 
 
     //All multiples of 3 from 1 to 100
-
-
-
+ for (int j = 1; j <= 100; j++){
+if (i%3 = 0) {
+  System.out.println(j);
+}
+}
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
-  }
-}
+  
+
