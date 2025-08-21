@@ -3,7 +3,7 @@ class Main {
 
     //Use the // to create single line comments to either add info or to take out code for debugging
 
-    System.out.println("Hello world!");
+
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
 
 
@@ -64,12 +64,17 @@ System.out.println(i);
 
 
     //All multiples of 3 from 1 to 100
- for (int j = 1; j <= 100; j++){
-if (i%3 = 0) {
-  System.out.println(j);
+ for (int j = 3; j <= 100; j+=3){
+System.out.println(j);
 }
-}
-
-    //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
+ //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
   
+ for (int h = 1000; h >= 0; h-=10){
+System.out.print(h + "-");
+}
+  }}
+
+
+
+   
 
